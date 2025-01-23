@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>API(Movie)</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./api4.css" />
+  </head>
+  <body>
+    <div id="main">Movie App</div>
+    <div id="nav">
+      <input type="text" id="movieInfo" placeholder="Enter movie name" />
+      <button id="searchBtn" type="submit">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </button>
+    </div>
+    <section id="body">
+      <div id="posters"></div>
+      <div id="details">
+        <h1 id="head">Movie Details</h1>
+        <h3 id="title"></h3>
+        <h3 id="actors"></h3>
+        <h3 id="year"></h3>
+        <h3 id="language"></h3>
+        <h3 id="country"></h3>
+        <h3 id="released"></h3>
+      </div>
+    </section>
+    <script src="./api4.js"></script>
+  </body>
+</html>
